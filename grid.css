@@ -1,0 +1,37 @@
+.cou{
+    display: grid;
+    height: 600px;
+    width: 1000px;
+    background-color: white;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    column-gap: 20px;
+    row-gap: 20px ;
+   justify-content :center;
+   align-content: center;
+}
+.a1{
+    background-color: skyblue;
+    display: grid;
+}
+.a2{
+   background-color: skyblue;
+}
+.a3{
+    background-color: skyblue;
+}
+.a4{
+    background-color: skyblue;
+}
+.a5{
+    background-color: skyblue;
+}
+.a6{
+    background-color: skyblue;
+}
+@media (max-width: 600px) {
+    .cou{
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    }
+}
