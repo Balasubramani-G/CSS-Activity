@@ -1,0 +1,57 @@
+body{
+    margin:0;
+    background:skyblue;
+    overflow:hidden;
+    font-family:Arial;
+}
+
+.parent{
+    width:600px;
+    height:500px;
+    margin:auto;
+    background:black;
+    position:relative;
+    overflow:hidden;
+}
+
+.player{
+    width:50px;
+    height:50px;
+    background:white;
+    position:absolute;
+    left:70px;
+    top:180px;
+}
+
+.arrow{
+    width:100px;
+    height:2px;
+    background:blue;
+    position:absolute;
+    left:550px;
+    top:200px;
+}
+
+.gameover{
+    width:600px;
+    height:500px;
+    background:rgba(0,0,0,.8);
+    color:white;
+
+    position:absolute;
+    top:110px;
+    left:50%;
+    transform:translateX(-50%);
+
+    display:none;
+
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+button{
+    padding:10px 25px;
+    font-size:18px;
+    cursor:pointer;
+}
