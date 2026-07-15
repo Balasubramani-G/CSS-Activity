@@ -1,0 +1,29 @@
+.counter{display: inline-block;
+    background-color:black;
+    border: 5px dotted white;
+    height: 400px;width: 400px;position:absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);
+}
+.num1{display: inline-block;
+    background-color: blue;
+    border: 2px solid white;
+    height: 30px;width: 60px;align-items: center;justify-content: center;
+    color: white;position: absolute;top: 07%;left: 13%;transform: translate(-50%,-50%);
+}
+.num2{display: inline-block;
+    background-color: green;
+    border: 2px solid white;
+    height: 80px;width: 70px;align-items: center;justify-content: center;
+    color: white;position: absolute;top: 13%;left: 40%;transform: translate(-50%,-50%);
+}
+.num3{display: inline-block;
+    background-color: red;
+    border: 2px solid white;
+    height: 100px;width: 80px;align-items: center;justify-content: center;
+    color: white;position: absolute;top: 15%;left: 67%;transform: translate(-50%,-50%);
+}
+.num4{display: inline-block;
+    background-color: yellow;
+    border: 2px solid white;
+    height: 100px;width: 80px;align-items: center;justify-content: center;
+    color: white;position: absolute;bottom: 20%;left: 14%;transform: translate(-50%,-50%);
+}
